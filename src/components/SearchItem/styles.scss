@@ -1,0 +1,67 @@
+.search__product a {
+  display: flex;
+  align-items: center;
+}
+
+.search__product--figure {
+    width: 13vw;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search__product--img {
+    margin: 1px;
+    width: 100%;
+    height: 85%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .search__product--info {
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search__product--info-name {
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Girassol", cursive;
+  }
+  
+  .search__product--price {
+    margin: 0 5px;  
+    width: 110px;
+  }
+  
+  .search__product--price-final {
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .search__product--price-installments {
+    margin: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    color: cadetblue;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .search__product--group-info {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
